@@ -6,7 +6,7 @@ function show_log(str) {
     console.log.bind(console, 'Peephole (content):')(str);
 }
 
-var debug = false;
+var debug = true;
 function show_debug(str) {
     if (debug)
         console.log.bind(console, 'Peephole:')(str);
